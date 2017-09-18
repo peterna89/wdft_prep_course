@@ -31,11 +31,11 @@ Exercise #4
 Use the console.log() function and the array .pop() to add all the values in the array.
 */
 
-/*
+
 var sum = 0;
 
 while(numbers.length != 0){
-    array.pop(sum);
+    sum = sum + numbers.pop(i);
 }
 
 console.log(sum);
